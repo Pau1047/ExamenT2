@@ -30,8 +30,7 @@ public class Bicicleta {
 
     @Override
     public String toString() {
-        return "Bicicleta: " + modelo + " , velocidad:" + velocidad + " , plato:" + plato +
-                " , piñon:" + piñon;
+        return "Bicicleta: " + modelo + " , velocidad:" + velocidad + " , plato:" + plato + " , piñon:" + piñon;
     }
 
     public void acelerar() {

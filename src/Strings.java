@@ -8,16 +8,26 @@ public class Strings {
         String frase = "Murcielago";
         System.out.println(frase);
         cambiaVocalesEj4(frase);
-        System.out.println(frase);
+
     }
 
+
+    public static void rotacion (String palabra){
+
+    }
+
+
+
+
+
+
         //Ejercicio 3
-  public static int cuentaPalabras (String frasecontar){
+ /* public static int cuentaPalabrasVocal (String frasecontar){
         String espacio = " ";
         int contador = 0;
 
         for (int i = 0; i <frasecontar.length() ; i++) {
-            if(){
+            if(frasecontar.charAt() = espacio){
                 contador++;
             }
         }
@@ -26,18 +36,18 @@ public class Strings {
         contador ++;
         return  contador;
     }
-
+*/
 
 
     //Ejercicio 4
-    public static String cambiaVocalesEj4(String fraseCambiar){
+    public static void cambiaVocalesEj4(String fraseCambiar){
 
-        fraseCambiar.replace("a", "@");
-        fraseCambiar.replace("e", "3");
-        fraseCambiar.replace("i", "1");
-        fraseCambiar.replace("o", "0");
-        fraseCambiar.replace("u","*");
-        return fraseCambiar;
+        fraseCambiar = fraseCambiar.replace("a", "@");
+        fraseCambiar =  fraseCambiar.replace("e", "3");
+        fraseCambiar = fraseCambiar.replace("i", "1");
+        fraseCambiar = fraseCambiar.replace("o", "0");
+        fraseCambiar = fraseCambiar.replace("u","*");
+        System.out.println(fraseCambiar);
     }
 
 }

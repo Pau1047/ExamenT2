@@ -1,9 +1,11 @@
 public class Arrays {
     public static void main(String[] args) {
 
-    int[][] matriz1 = new int[5][5];
+    int[][] matriz1 = new int[3][3];
     imprimeMatriz(matriz1);
-
+        System.out.println();
+    matrizTranspuesta(matriz1);
+    imprimeMatriz(matriz1);
     }
 
 
@@ -18,7 +20,12 @@ public class Arrays {
 
     public static void matrizTranspuesta(int[][] matriz){
 
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
+                matriz[i][j] = matriz[i][i];
+            }
 
+        }
 
     }
 
